@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GridCollectionViewCustomLayout.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UICollectionViewController<GridCollectionViewDelegateCustomLayout>
 
 @end

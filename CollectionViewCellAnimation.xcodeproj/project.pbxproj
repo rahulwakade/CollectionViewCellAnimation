@@ -22,6 +22,7 @@
 		B7B8649019265B6A004BBD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B8646F19265B6A004BBD51 /* UIKit.framework */; };
 		B7B8649819265B6A004BBD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7B8649619265B6A004BBD51 /* InfoPlist.strings */; };
 		B7B8649A19265B6A004BBD51 /* CollectionViewCellAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B8649919265B6A004BBD51 /* CollectionViewCellAnimationTests.m */; };
+		B7B864A5192665F1004BBD51 /* GridCollectionViewCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B864A4192665F1004BBD51 /* GridCollectionViewCustomLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B7B8649519265B6A004BBD51 /* CollectionViewCellAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewCellAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		B7B8649719265B6A004BBD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7B8649919265B6A004BBD51 /* CollectionViewCellAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCellAnimationTests.m; sourceTree = "<group>"; };
+		B7B864A3192665F1004BBD51 /* GridCollectionViewCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCustomLayout.h; sourceTree = "<group>"; };
+		B7B864A4192665F1004BBD51 /* GridCollectionViewCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCustomLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		B7B8647119265B6A004BBD51 /* CollectionViewCellAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B7B864A3192665F1004BBD51 /* GridCollectionViewCustomLayout.h */,
+				B7B864A4192665F1004BBD51 /* GridCollectionViewCustomLayout.m */,
 				B7B8647A19265B6A004BBD51 /* AppDelegate.h */,
 				B7B8647B19265B6A004BBD51 /* AppDelegate.m */,
 				B7B8647D19265B6A004BBD51 /* Main_iPhone.storyboard */,
@@ -255,6 +260,7 @@
 			files = (
 				B7B8648519265B6A004BBD51 /* ViewController.m in Sources */,
 				B7B8647C19265B6A004BBD51 /* AppDelegate.m in Sources */,
+				B7B864A5192665F1004BBD51 /* GridCollectionViewCustomLayout.m in Sources */,
 				B7B8647819265B6A004BBD51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
